@@ -10,7 +10,7 @@ Trong Xcode: **File → Add Package Dependencies…** rồi dán URL repo, hoặ
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/AperoVN/AiServiceKit-Binary.git", from: "1.2.4")
+    .package(url: "https://github.com/Apero-VisionLab/AiServiceKit-Binary.git", from: "1.2.4")
 ],
 targets: [
     .target(
@@ -30,7 +30,7 @@ Version theo git tag (SemVer). Xem các bản đã phát hành ở tab **Release
 
 ## Phát hành (maintainer)
 
-Không sửa `Package.swift` bằng tay — nó được sinh tự động. Từ repo **source** (`AperoVN/AiServiceKit`):
+Không sửa `Package.swift` bằng tay — nó được sinh tự động. Từ repo **source** (`Apero-VisionLab/AiServiceKit`):
 
 ```bash
 ./scripts/build-xcframework.sh
